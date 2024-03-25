@@ -57,7 +57,14 @@ span:hover {
   background: seagreen;
   color: white;
 }
-
+@media(max-width:500px) {
+  nav .logo{
+  font-size: 25px;
+}
+.home h1{
+  font-size: 28px;
+}
+}
 .logo {
   font-size: 32px;
   margin: 0px 25px;
@@ -173,14 +180,6 @@ a:hover {
     left: 0;
   }
 }
-@media(max-width:500px) {
-  nav .logo{
-  font-size: 25px;
-}
-.home h1{
-  font-size: 28px;
-}
-}
 
 @media (max-width: 1080px) {
   label .logo {
@@ -253,9 +252,10 @@ section {
   letter-spacing: 2px;
 }
 .about p {
-  margin: 20px 0 60px 60px;
   text-align: justify;
-  padding-right: 50px;
+  padding: 30px;
+  font-size: 20px;
+ 
 }
 .about-m {
   border-radius: 50%;
@@ -278,6 +278,10 @@ section {
     margin: 0 50px;
     padding: 10px;
   }
+}
+
+@media (max-width: 500px) {
+
 }
 /*------Services----*/
 
@@ -377,7 +381,7 @@ section {
   }
 }
 
-/* test------*/
+/* ---------------------------------------test-------------------------------------------*/
 .test-conatiner {
   margin-top: 80px;
   display: flex;
@@ -409,6 +413,13 @@ section {
   color: seagreen;
 }
 
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+    margin: 15px auto;
+  }
+}
+
 /*----------team--------*/
 .team h3 {
   text-align: center;
@@ -427,8 +438,13 @@ div.role {
   margin:8px 0 4px 4px;
   font-size: 16px;
 }
-
-
+.team h1{
+  color: seagreen;
+}
+.team .role{
+  color:yellow;
+  text-transform: uppercase;
+}
 /*---------Gallery--------*/
 .g-main {
   text-align: center;
