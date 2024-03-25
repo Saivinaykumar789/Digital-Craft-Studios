@@ -281,7 +281,7 @@ section {
 
 .service-item {
   display: flex;
-  margin-bottom: 20px; /* Adjust spacing between service items */
+  margin-bottom: 20px; 
 }
 .serv {
   display: block;
@@ -307,7 +307,7 @@ section {
   margin-bottom: 18px;
 }
 .service-roleription h3 {
-  margin-bottom: 10px; /* Adjust spacing between title and roleription */
+  margin-bottom: 10px; 
 }
 /*-------------------Button----------------------*/
 .button {
@@ -342,12 +342,14 @@ section {
   right: -20px;
   transition: 0.5s;
 }
+
 .button span a {
   text-decoration: none;
   color: white;
   font-weight: 600;
   font-size: 18px;
 }
+
 .button:hover span {
   padding-right: 25px;
 }
@@ -357,14 +359,16 @@ section {
   right: 0;
 }
 
-@media (max-width: 767px) {
-  .serv {
+@media only screen and (max-width: 768px) {
+  .button {
+    width: 100%;
+    padding: 12px;
+  }
+  .serv{
     display: none;
   }
-  .h {
-    text-align: center;
-  }
 }
+
 /* test------*/
 .test-conatiner {
   margin-top: 80px;
@@ -374,15 +378,15 @@ section {
 }
 .Test-img {
   border-radius: 50%;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .card {
-  border: 1px solid white;
+  border: 2px solid white;
   transition: 0.3s;
-  width: 35%; /* Adjust as needed */
+  width: 40%;
   text-align: center;
-  margin: 15px;
+  margin:15px 19px;
 }
 .card p {
   text-align: justify;
@@ -391,6 +395,11 @@ section {
 .container {
   padding: 2px 16px;
 }
+.container h4 {
+  padding: 8px;
+  font-size: 18px;
+  color: seagreen;
+}
 
 /*----------team--------*/
 .team h3 {
@@ -398,6 +407,7 @@ section {
   font-size: 35px;
   margin: 50px;
 }
+
 div.role {
   padding: 15px;
   text-align: center;
@@ -406,9 +416,10 @@ div.role {
 .team p {
   text-align: justify;
   padding: 4px;
-  margin: 4px;
+  margin:8px 0 4px 4px;
   font-size: 16px;
 }
+
 
 /*---------Gallery--------*/
 .g-main {
@@ -444,14 +455,22 @@ div.sub-content {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .gallerycont-1 {
     width: 49.99999%;
     margin: 6px 0;
   }
+  .g-main{
+    font-size: 33px;
+    margin: 0;
+  }
+  .sub-content{
+    font-size: 35px;
+    text-transform: capitalize;
+  }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .gallerycont-1 {
     width: 100%;
   }
