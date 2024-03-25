@@ -173,6 +173,14 @@ a:hover {
     left: 0;
   }
 }
+@media(max-width:500px) {
+  nav .logo{
+  font-size: 25px;
+}
+.home h1{
+  font-size: 28px;
+}
+}
 
 @media (max-width: 1080px) {
   label .logo {
