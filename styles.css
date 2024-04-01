@@ -64,6 +64,9 @@ span:hover {
 .home h1{
   font-size: 23px;
 }
+nav{
+  position: fixed;
+}
 .title{
   color: greenyellow;
   font-size: 14px;
@@ -86,7 +89,8 @@ span:hover {
 
 nav {
   background: seagreen;
-  position:relative;
+  position:fixed;
+  width: 100%;
   
 }
 
@@ -334,6 +338,10 @@ section {
 }
 .service-roleription h3 {
   margin-bottom: 10px; 
+}
+button span a{
+  color: black;
+  position: fixed;
 }
 /*-------------------Button----------------------*/
 .button {
